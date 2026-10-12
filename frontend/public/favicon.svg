@@ -1,0 +1,9 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" rx="6" fill="#2563eb"/>
+  <!-- Umbrella canopy -->
+  <path d="M16 5C10 5 5 10 4.5 16H27.5C27 10 22 5 16 5Z" fill="white"/>
+  <!-- Center pole -->
+  <rect x="15" y="16" width="2" height="9" rx="1" fill="white"/>
+  <!-- Handle -->
+  <path d="M15 25 Q15 28 18 28 Q21 28 21 25" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+</svg>

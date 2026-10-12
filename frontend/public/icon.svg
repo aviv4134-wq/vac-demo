@@ -1,0 +1,23 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @media (prefers-color-scheme: light) {
+      .bg { fill: #2563eb; }
+      .fg { fill: white; }
+    }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #1d4ed8; }
+      .fg { fill: white; }
+    }
+  </style>
+  <rect class="bg" width="180" height="180" rx="36"/>
+  <!-- Umbrella canopy -->
+  <path class="fg" d="M90 38C62 38 38 60 36 88H144C142 60 118 38 90 38Z"/>
+  <!-- Umbrella center line -->
+  <rect class="fg" x="87" y="88" width="6" height="52" rx="3"/>
+  <!-- Umbrella handle curve -->
+  <path class="fg" d="M87 140 Q87 152 99 152 Q111 152 111 140" stroke="white" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- Canopy ribs -->
+  <line x1="90" y1="88" x2="36" y2="88" stroke="white" stroke-width="2" opacity="0.4"/>
+  <line x1="90" y1="88" x2="144" y2="88" stroke="white" stroke-width="2" opacity="0.4"/>
+  <line x1="90" y1="60" x2="90" y2="88" stroke="white" stroke-width="2" opacity="0.4"/>
+</svg>
